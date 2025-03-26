@@ -136,9 +136,13 @@ img {
 }
 
 /* <!--  section 1 --> */
-.title-section {
+.hero {
     background-color: #2e2f42;
     padding: 188px 0 188px;
+    max-width: 1444px;
+    background-image: linear-gradient rgba(46, 47, 66, 0.7),
+     rgba(46, 47, 66, 0.7);
+    
 }
 
 .main-title {
@@ -152,6 +156,7 @@ img {
     margin: 0 auto;
     padding-top: 0;
     margin-bottom: 48px;
+    
 }
  
 .button-order {
