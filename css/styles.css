@@ -229,13 +229,9 @@ img {
         width: 264px;
         height: 112px;
         background: #f4f4fd;
-        
+
 }
-    
-    margin: 0 auto 16px;
-    /* Центрування та відступ знизу */
-    display: flex;
-   
+       
 
 .feature-item-title {
     font-weight: 500;
