@@ -309,8 +309,41 @@ img {
     text-align: center;
     color: #434455;
 }
+.team-card-content-block {
+    display: flex;
+    justify-content: center;
+    /* Центрує іконки горизонтально */
+    gap: 24px;
+    /* Відстань між кружечками */
+    margin-top: 8px;
+    /* Відступ між текстом і лінками */
+    padding: 0;
+    list-style: none;
+}
 
-/* section 4 */
+/* Кружечки для іконок */
+.circle {
+    width: 40px;
+    /* Ширина кружечка */
+    height: 40px;
+    /* Висота кружечка */
+    background-color: #4d5ae5;
+    /* Колір фону кружечка */
+    border-radius: 50%;
+    /* Робить кружечок круглим */
+    display: flex;
+    align-items: center;
+    /* Вертикальне вирівнювання іконки */
+    justify-content: center;
+    /* Горизонтальне вирівнювання іконки */
+}
+
+/* Іконки */
+.icon{
+    fill: #fff
+    /* Колір іконок (за бажанням) */
+}
+    
 
 .portfolio-section {
     padding-top: 120px;
