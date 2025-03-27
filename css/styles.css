@@ -229,10 +229,18 @@ img {
         width: 264px;
         height: 112px;
         background: #f4f4fd;
+        position: relative;
 
 }
        
-
+.feature-icon-block svg {
+    position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        /* Центрує іконку всередині блока */
+}
+    
 .feature-item-title {
     font-weight: 500;
     font-size: 20px;
@@ -378,6 +386,4 @@ img {
     color: #f4f4fd;
     max-width: 264px;
 }
- .icon{
-    
- }
+ 
