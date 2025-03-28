@@ -230,6 +230,9 @@ img {
         height: 112px;
         background: #f4f4fd;
         position: relative;
+        display: flex;
+        align-items: center;
+        justify-content: center;
 
 }
        
