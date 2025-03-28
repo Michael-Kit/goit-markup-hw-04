@@ -338,16 +338,16 @@ img {
 }
 
 /* Іконки */
-
 .icon{
     fill: #fff
+    /* Колір іконок (за бажанням) */
 }
 .icon-small{
     width: 16px;
     height: 16px;
 }
 .circle:hover,
-.circle:focus{
+.circle:focus {
     background-color: #31d0aa;
 }
 .portfolio-section {
