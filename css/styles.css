@@ -319,11 +319,8 @@ img {
 .team-card-content-block {
     display: flex;
     justify-content: center;
-    /* Центрує іконки горизонтально */
     gap: 24px;
-    /* Відстань між кружечками */
     margin-top: 8px;
-    /* Відступ між текстом і лінками */
     padding: 0;
     list-style: none;
 }
@@ -345,7 +342,10 @@ img {
     fill: #fff
     /* Колір іконок (за бажанням) */
 }
-    
+.icon-small{
+    width: 16px;
+    height: 16px;
+}
 .circle:hover {
     background-color: #31d0aa;
 }
@@ -423,4 +423,8 @@ img {
     color: #f4f4fd;
     max-width: 264px;
 }
- 
+ .icon-large {
+    width: 24px;
+    height: 24px;
+ }
+   
