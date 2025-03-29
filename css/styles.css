@@ -436,7 +436,6 @@ img {
 
 .page-footer {
     background-color: #2e2f42;
-
     padding: 100px 0;
 }
 
@@ -448,8 +447,17 @@ img {
     color: #f4f4fd;
     max-width: 264px;
 }
+
  .icon-large {
     width: 24px;
     height: 24px;
  }
-   
+.Social-media{
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #fff;
+    padding-top: 120px;
+    padding-left: 120px;
+}
