@@ -453,7 +453,6 @@ img {
 
 .footer-container{
     display: flex;
-    justify-content: space-between;
     align-items: baseline;
 } 
 .text-block {
@@ -472,13 +471,6 @@ img {
     height: 24px;
 }
 
-.footer-socmedia {
-    display: flex;
-    flex-direction: column ;
-    align-items: flex-start;
-    padding-bottom: 16px;
-    margin-right: auto;
-}
 
 .footer-socmedia-block {
     display: flex;
